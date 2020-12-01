@@ -33,8 +33,8 @@ homework
 ├── src                    #程式碼
 │   ├── main.rs            #主程式
 │   ├── method
-│   │   └── mod.rs         #Multi Thread 計算程式
-│   └── utils.rs           #Init Vec Function & Transpose Vec Function
+│   │   └── mod.rs          #Multi Thread 計算程式
+│   └── utils.rs            #Init Vec Function & Transpose Vec Function
 └── target
     ├── release
     │   ├── build
