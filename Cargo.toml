@@ -1,0 +1,16 @@
+[package]
+name = "homework"
+version = "0.1.0"
+authors = ["t108368530 <t108368530@ntut.org.tw>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
